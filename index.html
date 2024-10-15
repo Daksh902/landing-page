@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Assignment</title>
+
+    <!-- Favicon link (replace 'favicon.ico' with the path to your icon) -->
+    <link rel="icon" href="images/images.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/port.jfif" alt="Logo"> 
+            </a>
+            <nav>
+                <ul id="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="menu-toggle" class="menu-toggle">☰</button> 
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to my Portfolio</h1>
+            <p>Your tagline or brief introduction goes here.</p>
+            <a href="#services" class="cta-btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <!-- Service 1 -->
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>We offer cutting-edge web development services, from static landing pages to complex web applications. Our team is proficient in modern web technologies like HTML, CSS, JavaScript, and the MERN stack.</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service">
+                <h3>Responsive Design</h3>
+                <p>We ensure that your website looks great on all devices. Our responsive design services make sure that your site adapts seamlessly to different screen sizes, offering an optimal experience on mobile, tablet, and desktop.</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service">
+                <h3>E-commerce Solutions</h3>
+                <p>We specialize in building feature-rich e-commerce platforms with secure payment gateways, inventory management, and user-friendly interfaces to help you manage your online store efficiently.</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service">
+                <h3>SEO Optimization</h3>
+                <p>Improve your website's visibility on search engines with our SEO optimization services. We focus on keyword research, content optimization, and link building to help drive traffic and improve your search rankings.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <ul class="social-icons">
+                <li><a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="images/instagram.jfif" alt="Instagram"></a></li> 
+                <li><a href="#"><img src="images/github.png" alt="GitHub"></a></li> 
+            </ul>
+            <p>&copy; 2024 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
